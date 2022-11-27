@@ -1,0 +1,66 @@
+.carrusel {
+    display: flex;
+    padding: 100px 0;
+    width: 50%;
+    height: 100vh;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    height: 200px;
+  }
+  
+  .carrusel img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #090f12;
+    align-items: center;
+  }
+
+  header .logo{
+    width: 125px;
+  }
+
+ .iconos{
+    width: 150px;
+    margin-left: 40px;
+    text-align-last: justify;
+ }
+
+ .iconos img{
+    filter: invert();
+ }
+
+ .input{
+    margin-right: 40px;
+ }
+
+ header input{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+ }
+
+ footer{
+    
+ }
+ 
+ .grip-productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.grip-productos img{
+    width: 150px;
+    height: 150px;
+}
+
+h3{
+    text-align: center;
+}
